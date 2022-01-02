@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "live-static",
+  "version": "0.0.0",
+  "description": "Keep a static site up to date from datapages",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx standard && NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
+    "jest": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/live-static.git"
+  },
+  "keywords": [
+    "sandhawke"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/live-static/issues"
+  },
+  "homepage": "https://github.com/sandhawke/live-static#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "luxon": "^2.2.0",
+    "mime-types": "^2.1.34",
+    "utimes": "^4.1.1"
+  }
+}
